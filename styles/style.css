@@ -7,17 +7,13 @@
   background: #29009c;
   background: linear-gradient(0deg,rgba(41, 0, 156, 1) 0%, rgba(0, 0, 0, 1) 50%);
 } */
-main {
-  padding: 40px;
-  background-color: rgba(255, 255, 255, 0.1); /* Semitransparente para ver el fondo */
-  color: white;
-}
 
 header {
   background-color: green;
   color: white;
   text-align: center;
   padding: 20px;
+  width: 100%;
 }
 
 footer {
