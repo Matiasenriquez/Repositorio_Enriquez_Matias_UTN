@@ -39,11 +39,25 @@ header {
 /*Sección Sobre Mi*/
 
 /*Sección de Mis Proyectos*/
+.projects {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2px;
+}
+
+.project img{
+  height: 320px;
+  border-radius: 10px;
+}
+
 
 /*Sección de Mis Habilidades*/
 .skills {
+  color: black;
   padding: 40px;
-  background-color: #f8f9fa;
   text-align: center;
 }
 
@@ -91,7 +105,6 @@ header {
 
 /*Sección de Pie de Página*/
 footer {
-  background-color: #222;
   color: white;
   text-align: center;
   padding: 15px;
