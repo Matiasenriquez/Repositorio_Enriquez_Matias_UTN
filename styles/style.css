@@ -103,6 +103,25 @@ header {
 
 /*Sección de Formulario de Contacto*/
 
+
+/*Boton para subir al inicio*/
+.boton-subir {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: green;
+  font-size: 24px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-subir:hover {
+  background-color: #12005a;
+  transform: translateY(-3px);
+}
+
 /*Sección de Pie de Página*/
 footer {
   color: white;
