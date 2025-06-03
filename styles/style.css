@@ -17,7 +17,7 @@ header {
   color: white;
   display: flex;
   text-align: right;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 5px;
   width: 100%;
 }
@@ -27,7 +27,6 @@ header {
   color: white;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .navbar-brand img {
@@ -36,19 +35,56 @@ header {
   object-fit: contain;
   height: 50px;
 }
+.navbar a {
+  color: white;
+}
+
 
 /*Sección de Presentación*/
 .presentation {
-  color: white;
   display: flex;
-  justify-content: space-evenly;
+  color: white;
   align-items: center;
-}
-.contactame{
-  height: 50px;
-  border-radius: 10px;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 40px;
   text-align: center;
-  padding: 10px;
+}
+
+.presentation-img img {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.presentation-aboutme {
+  max-width: 500px;
+}
+
+.presentation-aboutme h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.presentation-aboutme p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contactame {
+  background-color: #50A;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contactame:hover {
+  background-color: #7030d1;
 }
 
 /*Sección Sobre Mi*/
@@ -144,7 +180,7 @@ header {
   color: white;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.411);
 }
 
 .contacto label {
@@ -161,6 +197,7 @@ header {
 /*Boton para subir al inicio*/
 .boton-subir {
   position: fixed;
+  cursor: pointer;
   bottom: 20px;
   right: 20px;
   background-color: green;
@@ -190,6 +227,9 @@ footer {
   }
 
   .grid-iconos-skills {
+    grid-template-columns: 1fr;
+  }
+  .projects {
     grid-template-columns: 1fr;
   }
 }

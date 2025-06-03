@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <!--Botones de la barra de navegación-->
           <div class="navbar-nav"> 
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
             <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
             <a class="nav-link" href="#proyectos">Proyectos</a>
             <a class="nav-link" href="#habilidades">Habilidades</a>
@@ -34,30 +34,32 @@
     </nav>
   </header>
 
-  <!--Photo of name and presentation-->
+  <!--Presentation-->
   <section class="presentation">
-    <!--Imagen de presentación-->
-    <div class="presentation-img">
-      <img src="./assets/foto.png" alt="Foto de Matias">
-    </div>
-    <!--Sección de descripción en presentación-->
-    <div class="presentation-aboutme">
-      <h1>Hola!, soy Enriquez Matias</h1>
-      <p>Desarrollador web full stack en proceso. Busco transformar ideas en experiencias digitales con impacto, buscando aprender constantemente a través de la práctica y la pasión por innovar.</p>
-    </div>
-    <button class="contactame" href=#contacto>¡Contactame!</button>
-    </div>
-  </section>
+  <!-- Descripción y botón -->
+  <div class="presentation-aboutme">
+    <h1>¡Hola! Soy Enriquez Matias</h1>
+    <p>
+      Desarrollador web full stack en proceso. Busco transformar ideas en experiencias digitales con impacto, aprendiendo constantemente a través de la práctica y la pasión por innovar.
+    </p>
+    <a href="#contacto" class="contactame">¡Contactame!</a>
+  </div>
+   <!-- Imagen de presentación -->
+  <div class="presentation-img">
+    <img src="./assets/foto.png" alt="Foto de Matias">
+  </div>
+</section>
+
 
   <!--about me Section-->
-  <section class="aboutme container">
+  <section class="aboutme container" id="sobre-mi">
     <h2>Sobre Mi</h2>
     <p>Mi nombre es Enriquez Alejandro Matias, un joven Argentino oriundo de la provincia de Misiones. Soy un desarrollador web full stack en proceso y entusiasta de la tecnología. Desde que era un niño, mi pasion por los smartphones, los video juegos y las computadoras, me llevaron a explorar el mundo del desarrollo de software y estudiar con pasión y dedicación constante todo lo relacionado al tema.</p>
     <p>Actualmente estoy estudiando 2 diplomaturas sobre desarrollo web fullstack y disfrutando en el proceso de trabajar en proyectos junto a compañeros de estudio y en proyectos personales tales como este portfolio.</p>
   </section>
 
   <!--Project Section-->
-  <section class="projects">
+  <section class="projects" id="proyectos">
     <div class="project">
       <h3>Proyecto 1</h3>
       <div class="grid-projects">
@@ -81,7 +83,7 @@
   </section>
 
    <!--Skills Section-->
-  <section class="skills">
+  <section class="skills" id="habilidades">
   <h2>Mis Habilidades</h2>
   <div class="cards">
     <div class="card-frontend">
