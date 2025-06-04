@@ -126,40 +126,33 @@ header {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 10px;
   margin-top: 20px;
 }
 
-.card-frontend {
-  background-color: white;
+.card {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-.card-backend {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+.card img{
+  width: 70px;
+  height: auto;
 }
-.card-other {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+.grid-iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .grid-iconos-skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-}
-
-.grid-iconos img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
 }
 
 /*Sección de Formulario de Contacto*/
