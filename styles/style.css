@@ -52,7 +52,8 @@ header {
 }
 
 .presentation-img img {
-  max-width: 250px;
+  width: 400px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
@@ -62,13 +63,12 @@ header {
 }
 
 .presentation-aboutme h1 {
-  font-size: 2.2rem;
+  font-size: 50px;
   margin-bottom: 15px;
 }
 
 .presentation-aboutme p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -80,7 +80,7 @@ header {
   padding: 12px 20px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 .contactame:hover {
@@ -225,11 +225,13 @@ footer {
   .cards {
     grid-template-columns: 1fr;
   }
-
   .grid-iconos-skills {
     grid-template-columns: 1fr;
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+  .presentation-img img {
+    width: 80%;
   }
 }
